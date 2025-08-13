@@ -1,4 +1,8 @@
-﻿byte idade = 20;
-string nome = "Pedro";
-Console.WriteLine("Ola" + nome + ". A idade informada foi {0}", idade);
+﻿byte idade;
+string nome;
+Console.Write("Digite seu nome: ");
+nome = Console.ReadLine();
+Console.Write("Digite seu idade: ");
+idade = Convert.ToByte(Console.ReadLine());
+Console.WriteLine("Olá " + nome + ". A idade informada foi {0}.", idade);
     
